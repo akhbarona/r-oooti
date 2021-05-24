@@ -58,15 +58,18 @@ function DetailPage(props) {
                             {item.name}
                         </div>
                         <div>
-                          Qty: {item.qty}
+                          Jumlah: {item.qty}
                         </div>
                       </div>
                       <div className="cart-price">
-                        ${item.price}
+                        Rp {item.price}
                       </div>
                     </li>
                   )
               }
+              <li> <div className="text total">Units = {order.items} items</div>
+                  <div className="text">Total = Rp {order.totalPrice}</div>
+              </li>
             </ul>
           </div>
 

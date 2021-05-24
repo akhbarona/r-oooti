@@ -328,6 +328,12 @@ th {
 tbody > tr:nth-child(odd) {
   background-color: #f0f0f0;
 }
+.text{
+  font-size: 3rem;
+}
+.total{
+  margin: 1rem;
+}
 
 /* Checkout Steps */
 
