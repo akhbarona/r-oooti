@@ -233,7 +233,14 @@ a:hover{
   text-align: right;
 }
 .button.secondary{
-  margin: .8rem
+  margin: .8rem;
+  text-decoration: none;
+  background-color: #0984e3;
+  color: white;
+}
+.delete{
+  background-color: #d63031;
+  color: white;
 }
 
 .cart-select{
@@ -316,6 +323,8 @@ tbody > tr:nth-child(odd) {
 th {
   text-align: left;
 }
+
+.table>tbody
 tbody > tr:nth-child(odd) {
   background-color: #f0f0f0;
 }

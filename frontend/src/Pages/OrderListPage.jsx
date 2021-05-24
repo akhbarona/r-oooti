@@ -49,7 +49,7 @@ function OrdersPage(props) {
               <td>
                 <Link to={"/order/" + order._id} className="button secondary" >Details</Link>
                 {' '}
-                <button type="button" onClick={() => deleteHandler(order)} className="button secondary">Delete</button>
+                <button type="button" onClick={() => deleteHandler(order)} className="button delete">Delete</button>
               </td>
             </tr>))}
           </tbody>

@@ -28,8 +28,7 @@ function DetailPage(props) {
             <h3>
               Pengiriman ke
           </h3>
-            <div>
-              {order.shippingAddress.address}, {order.shippingAddress.city},
+            <div>{order.shippingAddress.address}, {order.shippingAddress.city},
           {order.shippingAddress.postalCode}, {order.shippingAddress.country},
           </div>
           </div>
